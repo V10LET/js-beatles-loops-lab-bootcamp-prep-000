@@ -22,11 +22,11 @@ function johnLennonFacts(lennonArray) {
 function iLoveTheBeatles(number) {
   let beatlesLove = []
   var i = number
-  
+
   do {
       beatlesLove.push('I love the Beatles!')
       i++
   } while (i < 15)
-    
+
   return beatlesLove
 }
