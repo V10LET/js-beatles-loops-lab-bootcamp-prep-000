@@ -1,10 +1,9 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
-  let musicianName = []
-  let musicianInstrument = []
+  let beatlesStrings = []
 
-  for (var musicians = 0; musicians < 4; musicians++) {
-    array[musicians]
+  for (var i = 0; i < musicians.length; i++) {
+    beatlesStrings.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  return musicians
+  return beatlesStrings
 }
