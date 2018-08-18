@@ -12,7 +12,7 @@ function johnLennonFacts(lennonArray) {
   let newArray = []
 
   for (var i = 0; i < lennonArray.length; i++) {
-    newArray.push(`${lennonArray}!!!`)
+    newArray.push(`${lennonArray[i]}!!!`)
   }
     return newArray
   }
